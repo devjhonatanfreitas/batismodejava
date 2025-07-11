@@ -1,5 +1,5 @@
 # 📚 Desafios Progressivos de Java
-Este repositório contém uma série de desafios progressivos de programação, do curso Batismo de Java, disponível em https://aluno.java10x.dev/
+Este repositório contém uma série de desafios progressivos de programação, do curso Batismo de Java, disponível em java10x.dev
 
 ## 🎯 Desafio 1
 **Descrição:** Programa básico que representa três ninjas da Vila da Folha com suas respectivas missões. Implementa lógica condicional para determinar se um ninja pode concluir uma missão baseado em sua idade e nível de dificuldade.
