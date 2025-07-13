@@ -116,14 +116,46 @@ Este repositório contém uma série de desafios progressivos de programação, 
 - `ContaPoupanca.java`
 - `TipoConta.java` (enum)
 
+## 🔧 Desafio 6
+**Descrição:** Sistema avançado de cadastro de ninjas com funcionalidades completas de CRUD utilizando generics, collections e algoritmos de ordenação. Implementa um menu interativo robusto com operações de busca, ordenação e manipulação de dados em estruturas dinâmicas.
+
+### Conceitos Aplicados
+- **Generics:** Classe ListaDeNinjas<T> para type safety
+- **Collections Framework:** LinkedList para estrutura de dados dinâmica
+- **Algoritmos de Ordenação:** Comparator e sort() para ordenação customizada
+- **Comparators:** Comparator.comparing() e comparingInt() para diferentes critérios
+- **Expressões Lambda:** Uso implícito em comparadores
+- **Busca em Coleções:** Algoritmo de busca linear com contains()
+- **Manipulação de Strings:** toLowerCase() e contains() para busca case-insensitive
+- **Casting de Tipos:** Cast de generics para tipos específicos
+- **Separação de Responsabilidades:** Classes especializadas (Menu, ListaDeNinjas, Ninja)
+- **Packages:** Organização de código em pacotes (NinjasList)
+- **Entrada e Saída Avançada:** Scanner com tratamento de buffer
+- **Estruturas de Controle Complexas:** Menus aninhados e validações
+- **Método toString():** Sobrescrita para representação textual
+- **Construtores Sobrecarregados:** Construtor padrão e parametrizado
+- **Encapsulamento:** Getters e modificadores de acesso adequados
+- **Operações CRUD:** Create, Read, Update, Delete completas
+- **Tratamento de Referências:** Verificação de null e objetos válidos
+- **Interface de Usuário:** Menu interativo com múltiplas opções
+- **Modularização Avançada:** Métodos específicos para cada funcionalidade
+- **Boas Práticas de Collections:** Uso adequado de LinkedList vs ArrayList
+
+### Arquivos
+- `main.java`
+- `Menu.java`
+- `Ninja.java`
+- `ListaDeNinjas.java`
+
 ## 🎓 Objetivos Pedagógicos
 Estes desafios foram desenvolvidos para demonstrar a evolução natural no aprendizado de Java:
 
 1. **Fundamentos:** Variáveis, condicionais, entrada/saída
-2. **Orientação a Objetos:** Classes, herança, polimorfismo
-3. **Conceitos Avançados:** Interfaces, enums, contratos
-4. **Arquitetura Robusta:** Classes abstratas, hierarquias complexas, sistemas completos
-5. **Estruturas de Dados:** Arrays, manipulação de coleções estáticas, programação estruturada
+2. **Estruturas de Dados:** Arrays, manipulação de coleções estáticas, programação estruturada
+3. **Orientação a Objetos:** Classes, herança, polimorfismo
+4. **Conceitos Avançados:** Interfaces, enums, contratos
+5. **Arquitetura Robusta:** Classes abstratas, hierarquias complexas, sistemas completos
+6. **Programação Avançada:** Generics, collections, algoritmos de ordenação e busca
 
 Cada desafio constrói sobre o anterior, mostrando como refatorar e melhorar o código conforme novos conceitos são aprendidos.
 
